@@ -1,0 +1,857 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 25vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://i0.wp.com/www.projectlupad.com/wp-content/uploads/2021/10/TRIPLE-WATERFALLS-at-Balangikog-Falls-in-Imbatug-Bukidnon-4K-Copyright-to-Project-LUPAD-1.jpg?resize=1024%2C575&ssl=1");
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+}
+
+.logo {
+  width: 200px;
+  position: relative;
+  left: 400px;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: -350px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* about us */
+.about-container {
+  max-width: 1023px;
+  margin: 30px 20px;
+  padding: 0 5px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+#home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.about-description h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-description p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-content .h2 {
+  align-items: center;
+}
+
+.about-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 90px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.about-description {
+  flex: 1;
+  margin-right: -100px;
+}
+
+/* officials */
+#officials {
+  background-color: gainsboro;
+  height: 1200px;
+  width: 100%;
+}
+
+.officials-content {
+  margin-left: 20px;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+}
+
+.secondline-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.officials-content .card {
+  margin-top: 40px;
+  margin-left: 550px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  /* border: 1px solid gray;
+  padding: 10px;
+  margin: 15px 15px;
+  width: 2in;
+  height: 2.50in;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  border: 1px solid gray;
+    padding: 10px;
+    margin: 15px 15px;
+    width: 2in;
+    height: 2.50in;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 8px; 
+}
+
+
+.card-title {
+  font-size: 15px;
+  margin-top: 180px;
+  text-align: center;
+  color: white;
+}
+
+.card-body {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.linethree-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.linefive-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 310px;
+}
+
+/* dropdown */
+.dropdown-btn {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: gainsboro;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-icon {
+  font-size: 25px;
+}
+
+/* emergency  */
+.emergency-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin-left: 10px;
+  margin-right: 500px;
+  margin-top: -150px;
+  flex-direction: column;
+}
+
+.nationwide img {
+  text-align: center;
+  margin-top: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  width: 1000px;
+  height: 120vh;
+}
+
+.hotline img {
+  text-align: center;
+  margin-top: -700px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 1450px;
+  width: 350px;
+  height: 100vh;
+}
+
+.emegency-container h2 img {
+  margin-left: 10px;
+  width: 70px;
+  height: auto;
+  margin-left: 1300px;
+  margin-top: 0px;
+}
+
+.emergency-container h2 {
+  margin-top: -400px;
+}
+
+/* emer-hotlines */
+.emergency-container h3 {
+  display: flex;
+  color: black;
+  font-size: 30px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.emergency-container h3 img {
+  width: 80px;
+  height: auto;
+  margin-left: 1000px;
+  margin-top: 20px;
+}
+
+.emergency-container h2 {
+  margin-top: -400px;
+}
+
+/* map */
+.map-container {
+  position: relative;
+  width: 70%;
+  height: 0;
+  padding-bottom: 75%;
+  margin-top: 300px;
+  margin-left: 10px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+/* facebook */
+.facebook-container {
+  width: 800px;
+  margin: 0 auto;
+  margin-left: 980px;
+  margin-top: -1130px;
+}
+
+.facebook-iframe {
+  width: 100%;
+  height: 800px;
+  border: none;
+}
+
+.facebook-container h1 {
+  color: black;
+  margin-left: 350px;
+  font-size: 20px;
+}
+
+.arrow-symbol {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.logo-container img {
+  width: 80px;
+}
+
+/* open-hours */
+.open-hours-card {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: -270px;
+  width: 3.50in;
+  height: 3.80in;
+  margin-left: 980px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.open-hours-card ul li {
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.opening-hours-heading {
+  position: relative;
+}
+
+.opening-hours-heading::after {
+  content: "";
+  position: absolute;
+  left: 35%;
+  right: 0;
+  bottom: 5%;
+  height: 3px;
+  transform: translateX(-50%);
+  width: 150px;
+  background-color: gray;
+}
+
+/* header1 */
+.home-header {
+  background: linear-gradient(to right, black, darkgreen);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 145px;
+  left: 0;
+  z-index: 9999;
+}
+
+.home-header ul {
+  margin-right: 20px;
+}
+
+.home-header ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.home-header ul li:first-child {
+  margin-left: 0;
+}
+
+.home-header ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-popup {
+  /* display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center; */
+
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  padding:100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: none; /* Hide the pop-up by default */
+  width: 500px; /* Set the desired width */
+  height: 500px; /* Set the desired height */
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+/* .login-popup-content {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px; 
+  height: 400px; 
+} */
+.login-popup-content h2{
+  margin-top: -20px;
+}
+
+.login-input {
+  position: relative;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.login-input input[type="text"],
+.login-input input[type="password"] {
+  border-radius: 20px;
+  padding: 10px 30px;
+  width: 300px;
+  transition: border-color 0.3s ease;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+
+.login-input label {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 17px;
+  color: #777;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+  pointer-events: none;
+  transform-origin: 0 0;
+}
+
+.login-input input[type="text"]:focus + label,
+.login-input input[type="password"]:focus + label,
+.login-input input[type="text"]:not(:placeholder-shown) + label,
+.login-input input[type="password"]:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 10px;
+  font-size: 14px;
+  color: #4CAF50;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.login-input .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login-popup-content {
+  text-align: center;
+}
+
+.login-logo {
+  max-width: 100px; 
+  margin-bottom: 30px;
+  margin-top: -40px;
+}
+
+/* .button .close-button {
+  font-size: 30px;
+  cursor: pointer;
+  right: 10px;
+} */
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  display: none; /* Hide the overlay by default */
+}
+
+/* ABOUT CSS */
+
+
+.about-us-container {
+  max-width: 1023px;
+  margin: 30px 20px;
+  padding: 0 5px;
+}
+
+/* .section {
+  margin-bottom: 40px;
+} */
+
+/* #home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+} */
+
+/* .about-description h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+} */
+
+/* .about-description p {
+  margin-bottom: 15px;
+  text-align: justify;
+} */
+
+/* .about-description p1 {
+  text-align: justify;
+} */
+
+/* .about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-content .h2 {
+  align-items: center;
+}
+
+
+.about-image img {
+  width: 500px;
+  height: auto; 
+  border-radius: 5px;
+  margin-right: 90px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+/*  */
+
+.about-description {
+  flex: 1;
+  margin-right: -200px;
+} 
+
+
+.slideshow {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow img {
+  margin-top: 100px;
+  width: 1000px;
+  height: 500px;
+  display: none;
+  margin-right: 5px;
+  margin-left: 150px; /* Add this line to center the image horizontally */
+}
+
+
+.slideshow img:last-child {
+  margin-right: 0;
+}
+
+
+.slideshow img.active {
+  display: block;
+}
+
+/* button */
+.slideshow {
+  position: relative;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  z-index: 1; 
+  font-weight: bold;
+}
+
+.prev-button {
+  left: 160px;
+}
+
+.next-button {
+  right: -120px; 
+}
+
+/* mission and vission */
+.mission-vision {
+  width: 100%;
+  height: auto;
+}
+
+.mission-vision h1{
+  margin-top: 60px;
+  text-align: center;
+  color: black;
+  font-weight: lighter;
+  left: 100px;
+  text-decoration: underline; 
+  text-decoration-color: #999; 
+  font-size: 30px;
+}
+
+
+ .mvc-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  margin-left: 100px;
+} 
+
+.column {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-top: 100px;
+  width: 300px;
+}
+
+.column h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.column p {
+  margin-bottom: 15px;
+  font-size: 17px
+}
+
+.column ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.column li {
+  margin-bottom: 5px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+
+/* ORDINANCE CSS */
+
+
+.ordinance-container
+{
+background-color: gainsboro;
+height: 1000px;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.ordinance-photo {
+margin-top: 120px;
+flex: 1;
+}
+
+.ordinance-info {
+flex: 1;
+margin-top: 50px;
+}
+
+.ordinance{
+font-size: 30px;
+font-weight: bold;
+margin-left: -300px;
+}
+
+
+.no-bullets {
+list-style-type: none; /* Remove the default bullets */
+padding-left: 0; /* Optional: Remove the left indentation */
+margin-top: 90px;
+font-size: 17px;
+}
+
+.no-bullets li {
+margin-bottom: 10px;
+}
+
+.by {
+margin-left: 25px;
+margin-top: 10px;
+transform: skew(5deg);
+}
+
+
+/* next */
+
+
+.ordinance-photo1{
+flex: 1;
+margin-top: 500px;
+margin-left: -600px;
+}
+
+.ordinance-info1 {
+flex: 2;
+margin-top: 500px;
+margin-left: -1000px;
+}
+
+.ordinance-info .list {
+margin-top: 0; /* Optional: Reset margin to remove the default space */
+}
+
+.no-bullets {
+list-style: none;
+padding-left: 0;
+}
+
+.ordinance-photo img {
+width: 100%; /* Optional: Adjust the image width to fit the container */
+}
+
+/* Optional: Add some spacing between the image and paragraph */
+.ordinance-photo {
+margin-right: 20px;
+}
+
+
+/* ACCOMPLISHMENT CSS */
+
+.accom-container
+{
+background-color: gainsboro;
+height: 1000px;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.accom-photo {
+margin-top: 0px;
+flex: 1;
+}
+
+.accom-info {
+flex: 1;
+margin-top: 50px;
+}
+
+.accomplishment{
+font-size: 30px;
+font-weight: bold;
+margin-left: -150px;
+}
+
+
+.no-bullets {
+list-style-type: none; /* Remove the default bullets */
+padding-left: 0; /* Optional: Remove the left indentation */
+margin-top: 90px;
+font-size: 17px;
+}
+
+.no-bullets li {
+margin-bottom: 10px;
+}
+
+.by {
+margin-left: 25px;
+margin-top: 10px;
+transform: skew(5deg);
+}
+
+/* next */
+
+.accom-photo1{
+  flex: 1;
+  margin-top: 500px;
+  margin-left: -300px;
+  
+}
+
+.accom-info1 {
+  flex: 2;
+  margin-top: 500px;
+  margin-left: -1000px;
+}
+
+.accom-info .list {
+  margin-top: 0; 
+}
+
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.accom-photo img {
+  width: 100%;
+}
+
+.accom-photo {
+  margin-right: 20px;
+}

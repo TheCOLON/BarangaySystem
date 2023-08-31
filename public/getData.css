@@ -1,0 +1,213 @@
+/* Default styles for the container and form */
+.clear-container {
+    width: 8.5in;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+
+.printable-form {
+    width: 100%;
+}
+
+/* Styles for the form elements */
+form {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.punong-barangay{
+    text-align: center;
+}
+ form h1{
+    align-items: center;
+    text-align: center;
+    color: #ea4007;
+    margin-top: 40px;
+ }
+
+.p1{
+    margin-top: 50px;
+}
+
+.p2{
+    text-indent: 3em;
+}
+
+.p4{
+    text-indent: 3em;
+}
+.p5{
+    text-indent: 3em;
+}
+.p6{
+    text-indent: 3em;
+}
+.p7{
+    text-indent: 3em;
+    transform: skewX(-15deg); 
+    font-weight: bold;
+
+}
+.p8{
+    margin-left: 450px;
+    position: relative;
+}
+
+.p8::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Set the height of the line as per your preference */
+    background-color: black; /* Change the color of the line as needed */
+}
+.data{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 0.5in ;
+    font-size: 1.1em;
+}
+
+.data2 {
+    margin-bottom: -10px;
+}
+
+.data1 {
+    position: relative;
+  /* Adjust the spacing to avoid overlapping with the image */
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Styles for the logo */
+.header img {
+    max-width: 200px; 
+    margin-left: 200px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 200px;
+}
+
+.header ul li {
+    font-size: 15px; 
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+/* Add horizontal line bar */
+.horizontal-line {
+    border-bottom: 4px solid #bf591f;
+    width: 80%;
+    margin: 10px auto; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styles specific for printing */
+@media print {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+.horizontal-line-2{
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin: 10px auto; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.column-container {
+    display: flex;
+    justify-content: space-between; /* To evenly distribute the columns */
+    text-align: justify;
+    transform: skewX(-5deg); 
+    font-size: 16px;
+}
+
+.row{
+    margin-left: 60px;
+}
+
+/* business */
+.underline {
+    position: relative; /* Set the position to relative to position the underline */
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.underline::after {
+    content: ""; /* Required for ::after pseudo-element */
+    position: absolute;
+    bottom: 3px; /* Adjust the position of the underline from the baseline of the text */
+    left: 5px;
+    width: 130px; /* Adjust the width of the underline here */
+    border-bottom: 1px solid black; 
+}
+
+.underline-person {
+    position: relative; /* Set the position to relative to position the underline */
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.underline-person::after {
+    content: ""; /* Required for ::after pseudo-element */
+    position: absolute;
+    bottom: -4px; /* Adjust the position of the underline from the baseline of the text */
+    left: 5px;
+    width: 130px; /* Adjust the width of the underline here */
+    border-bottom: 1px solid black; 
+}
+
+.underline-business{
+    position: relative; /* Set the position to relative to position the underline */
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.underline-business::after {
+    content: ""; /* Required for ::after pseudo-element */
+    position: absolute;
+    bottom: 3px; /* Adjust the position of the underline from the baseline of the text */
+    left: 0px;
+    width: 130px; /* Adjust the width of the underline here */
+    border-bottom: 1px solid black; 
+}
+
+ .permit-underline {
+    text-decoration: underline;
+    width: 100px;
+    position: relative; /* Set the position to relative to position the underline */
+    display: inline-block;
+    margin-right: 10pxpx;
+    border-bottom: 1px solid black; 
+ }

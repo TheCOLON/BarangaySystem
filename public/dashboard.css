@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  
+  .form1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  
+  .form-clearance-card {
+    width: 180px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    align-items: center;
+    position: relative;
+    display: flex;
+  }
+  
+
+  
+  .form-clearance-card:hover, .form-clearance-card:active, .form-clearance-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+  
+  span {
+    font-size: 16px; 
+    font-weight: bold;
+    color: black;
+    margin-bottom: -150px;
+    align-items: center;
+    margin-left: 5px;
+    bottom: 100px;
+   
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+
+  
+  .form-business-card {
+    width: 180px;
+    height: 200px;
+    background-color: lightpink;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-business-card:hover, .form-business-card:active, .form-business-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+
+  
+  
+  .form-other-card {
+    width: 180px;
+    height: 200px;
+    background-color: lightsalmon;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-other-card:hover, .form-other-card:active, .form-other-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+  
+  .form-other1-card {
+    width: 180px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-other1-card:hover, .form-other1-card:active, .form-other1-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+  
+  .form-other1-card {
+    width: 180px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-other1-card:hover, .form-other1-card:active, .form-other1-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+  
+  .form-other2-card {
+    width: 180px;
+    height: 200px;
+    background-color: gainsboro;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-other2-card:hover, .form-other2-card:active, .form-other2-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+  
+  .form-other3-card {
+    width: 180px;
+    height: 200px;
+    background-color: cyan;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-other3-card:hover, .form-other3-card:active, .form-other3-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+  
+  .form-other4-card {
+    width: 180px;
+    height: 200px;
+    background-color: violet;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-other4-card:hover, .form-other4-card:active, .form-other4-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+
+  
+  .form-other5-card {
+    width: 180px;
+    height: 200px;
+    background-color: magenta;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .form-other5-card:hover, .form-other5-card:active, .form-other5-card:focus {
+    border-color: gray;
+    outline: none; 
+  }
+
+
+  /* clearance */
+
+.clearance-card {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 70%;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top:-10px; 
+}
+
+.form-group {
+    margin-bottom: 11px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.print-link {
+    text-align: center;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.print-link:hover {
+    color: #0056b3;
+}
+
+.print-pdf {
+    text-align: center;
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.print-pdf:hover {
+    color: #0056b3;
+}
+
+/* send announcements */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  display: none; /* Hide the overlay by default */
+}
+
+.popup {
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  background-color: lightsalmon;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: none; /* Hide the pop-up by default */
+  width: 400px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+}
+
+/* Optional style to customize the close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo-container img {
+  width: 50px; /* Adjust the width to fit your logo */
+  height: auto;
+  margin-right: -10px; /* Add spacing between the logo and the text */
+}
+
+.logo-container span {
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold;
+  margin-top: -150px;
+}
+
+form {
+  /* Optional: Add some spacing between the form elements */
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  /* Optional: Style the send button */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
